@@ -1,3 +1,40 @@
+/*----------------Fonts--------*/
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('MyriadPro-Regular.woff2') format('woff2'),
+        url('MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('MyriadPro-SemiboldIt.woff2') format('woff2'),
+        url('MyriadPro-SemiboldIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('MyriadPro-Bold.woff2') format('woff2'),
+        url('MyriadPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurostile-Demi';
+    src: url('Eurostile-Demi.woff2') format('woff2'),
+        url('Eurostile-Demi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/*----------------Fonts--------*/
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
@@ -3594,41 +3631,4 @@ details-disclosure > details {
   100% {
     transform: translateX(100%) scaleX(0);
   }
-}
-
-/*----------------Fonts--------*/
-@font-face {
-    font-family: 'Myriad Pro';
-    src: url('fornts/MyriadPro-Regular.woff2') format('woff2'),
-        url('fornts/MyriadPro-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Myriad Pro';
-    src: url('fornts/MyriadPro-SemiboldIt.woff2') format('woff2'),
-        url('fornts/MyriadPro-SemiboldIt.woff') format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Myriad Pro';
-    src: url('fornts/MyriadPro-Bold.woff2') format('woff2'),
-        url('fornts/MyriadPro-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Eurostile-Demi';
-    src: url('fornts/Eurostile-Demi.woff2') format('woff2'),
-        url('fornts/Eurostile-Demi.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
 }
