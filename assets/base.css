@@ -3681,3 +3681,12 @@ details-disclosure > details {
 button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
     background-color: red !important;
 }
+div#shopify-section-template--25301475197213__image-with-text {
+    display: none !important;
+}
+.multicolumn.color-scheme-1.gradient.background-none.no-heading {
+    display: none !important;
+}
+.shopify-payment-button__button--unbranded {
+    background-color: #FFEB3B !important;
+}
