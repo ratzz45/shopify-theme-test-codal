@@ -118,3 +118,12 @@
     </option>
   {%- endif -%}
 {%- endfor -%}
+
+<div class="accordion__content rte">
+  {% if product.metafields.custom.short_description != blank %}
+    <div class="product-short-description">
+      {% comment %} added to metafields for short description with filter metafield_tag {% endcomment %}
+      {{ product.metafields.custom.short_description | metafield_tag }}
+    </div>
+  {% endif %}
+</div>
