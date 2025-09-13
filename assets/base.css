@@ -3644,6 +3644,12 @@ details-disclosure > details {
     letter-spacing: 0%;
     font-family: Eurostile Demi;
 }
+section#shopify-section-template--25301475197213__multicolumn {
+    display: none;
+}
+.section-template--25301475197213__image-with-text-padding.gradient.color-scheme-1 {
+    display: none;
+}
 
 .product-form__input--pill input[type='radio']:checked + label
  {  background: #EFFEFA !important;
